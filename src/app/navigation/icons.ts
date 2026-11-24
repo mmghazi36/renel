@@ -90,7 +90,7 @@ export const navigationIcons: Record<string, ElementType> = {
   tables: DualTableIcon,
   docs: LampIcon,
   settings: SettingIcon,
-  managements:DashboardsIcon,
+  managements:PrototypesIcon,
   "dashboards.sales": StatisticIcon,
   "dashboards.crm-analytics": WindowIcon,
   "dashboards.orders": OrderTimerIcon,

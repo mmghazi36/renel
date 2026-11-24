@@ -44,9 +44,9 @@ export const baseNavigationObj: Record<string, NavigationTree> = {
   management: {
     id: "management",
     type: "item",
-    path: "/management",
+    path: "/managements",
     title: "management",
-    transKey: "nav.management.management",
+    transKey: "nav.managements.title",
     icon: "managements",
   },
 };

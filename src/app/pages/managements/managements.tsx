@@ -6,6 +6,7 @@ import { Page } from "@/components/shared/Page";
 import { Header } from "@/app/layouts/MainLayout/Header";
 import { Card } from "@/components/ui";
 import { useTranslation } from "react-i18next";
+import { Sidebar } from "@/app/pages/settings/Sidebar";
 
 // ----------------------------------------------------------------------
 
@@ -20,6 +21,8 @@ export default function Settings() {
           <Outlet />
         </Card>
       </main>
+      <Sidebar />
+
     </Page>
   );
 }
