@@ -1,0 +1,201 @@
+{
+  "pages": {
+    "auth": {
+      "title": "ورود",
+      "welcome": "خوش آمدید",
+      "subtitle": "لطفاً برای ادامه وارد شوید",
+      "username": "نام کاربری",
+      "usernameHint": "نام کاربری خود را وارد کنید",
+      "password": "رمز عبور",
+      "passwordHint": "رمز عبور خود را وارد کنید",
+      "submitting": "در حال ورود…",
+      "validation": {
+        "usernameRequired": "نام کاربری را وارد کنید.",
+        "passwordRequired": "رمز عبور را وارد کنید.",
+        "keyboard": "زبان صفحه‌کلید را انگلیسی کنید و دوباره بنویسید."
+      },
+      "errors": {
+        "invalid": "نام کاربری یا رمز عبور اشتباه است.",
+        "limited": "تلاش‌های ورود زیاد است. کمی بعد دوباره امتحان کنید.",
+        "server": "سرور موقتاً در دسترس نیست.",
+        "network": "ارتباط با سرور برقرار نشد.",
+        "unknown": "ورود انجام نشد. دوباره تلاش کنید."
+      }
+    },
+    "settings": {
+      "general": {
+        "title": "تنظیمات عمومی",
+        "subtitle": "تنظیمات حساب کاربری خود را بروزرسانی کنید.",
+        "avatar": "آواتار",
+        "name": "نام کاربری",
+        "nameHint": "نام کاربری خود را وارد کنید",
+        "mail": "ایمیل",
+        "mailHint": "رمز عبور خود را وارد کنید",
+        "phone": "شماره تماس",
+        "phoneHint": "شماره تماس خود را وارد کنید",
+        "cancel": "انصراف",
+        "submit": "ذخیره",
+        "notifications": {
+          "title": "اعلان\u200Cها",
+          "subtitle": "اعلان\u200Cهای خود را ماهده کنید."
+        },
+        "billing": {
+          "title": "صورتحساب و پرداخت\u200Cها",
+          "subtitle": "        مدیریت صورتحساب\u200Cها و پرداخت\u200Cهای خود را از اینجا انجام دهید. همچنین می\u200Cتوانید روش\u200Cهای پرداخت خود را از این بخش مدیریت کنید.\n"
+        }
+      }
+    },
+    "managements": {
+      "title": "مدیریت",
+      "user-management": {
+        "title": "مدیریت کاربران ",
+        "subtitle": "تنظیمات کاربران در این صفحه گذاشته شده"
+      },
+      "role-management": {
+        "title": "مدیریت نقش ها ",
+        "subtitle": "تنظیمات نقش ها در این صفحه گذاشته شده"
+      }
+    }
+  },
+  "nav": {
+    "dashboards": {
+      "dashboards": "داشبوردها",
+      "sales": "فروش",
+      "crm-analytics": "تحلیل CRM",
+      "orders": "سفارش‌ها",
+      "crypto": "رمزارز",
+      "crypto-1": "رمزارز نسخه ۱",
+      "crypto-2": "رمزارز نسخه ۲",
+      "banking": "بانکداری",
+      "banking-1": "بانکداری نسخه ۱",
+      "banking-2": "بانکداری نسخه ۲",
+      "personal": "شخصی",
+      "cms-analytics": "تحلیل CMS",
+      "influencer": "اینفلوئنسر",
+      "travel": "سفر",
+      "teacher": "معلم",
+      "education": "آموزش",
+      "authors": "نویسندگان",
+      "doctor": "پزشک",
+      "employees": "کارمندان",
+      "workspaces": "فضاهای کاری",
+      "meetings": "جلسات",
+      "projects-board": "تابلوی پروژه‌ها",
+      "widget-ui": "رابط ویجت",
+      "widget-contact": "ویجت تماس"
+    },
+    "apps": {
+      "apps": "اپلیکیشن‌ها",
+      "chat": "چت",
+      "kanban": "تخته کانبان",
+      "todo": "کارها",
+      "filemanager": "مدیریت فایل"
+    },
+    "tables": {
+      "tables": "جداول",
+      "orders-datatable-1": "جدول سفارش‌ها نسخه ۱",
+      "orders-datatable-2": "جدول سفارش‌ها نسخه ۲",
+      "courses-datatable": "جدول دوره‌ها",
+      "users-datatable": "جدول کاربران",
+      "projects-datatable": "جدول پروژه‌ها",
+      "basic-table": "جدول پایه",
+      "react-table": "جدول React",
+      "advanced-tables": "جداول پیشرفته"
+    },
+    "forms": {
+      "forms": "فرم‌ها",
+      "ekyc-form": "فرم eKYC",
+      "add-product-form": "فرم افزودن محصول",
+      "new-post-form": "فرم پست جدید",
+      "input": "ورودی",
+      "input-group": "گروه ورودی",
+      "input-mask": "ماسک ورودی",
+      "checkbox": "چک‌باکس",
+      "radio": "رادیو",
+      "switch": "سوئیچ",
+      "swap": "تعویض",
+      "textarea": "تکست اریا",
+      "select": "انتخاب",
+      "range": "محدوده",
+      "listbox": "لیست باکس",
+      "autocomplete": "تکمیل خودکار",
+      "file-upload": "آپلود فایل",
+      "form-validation": "اعتبارسنجی فرم",
+      "text-editor": "ویرایشگر متن",
+      "filepond": "آپلود فایل‌ها",
+      "datepicker": "تاریخ‌نگار"
+    },
+    "components": {
+      "components": "کامپوننت‌ها",
+      "basic-ui": {
+        "basic-ui": "رابط کاربری پایه",
+        "avatar": "آواتار",
+        "button": "دکمه",
+        "badge": "بج",
+        "tag": "تگ",
+        "divider": "خط جداکننده",
+        "typography": "تایپوگرافی"
+      },
+      "data-display": {
+        "data-display": "نمایش داده‌ها",
+        "box": "باکس",
+        "popover": "پنجره پاپ‌آپ",
+        "timeline": "خط زمان",
+        "collapse": "جمع‌شونده",
+        "legend": "لجند",
+        "mask": "ماسک",
+        "contextual-help": "راهنمای متنی"
+      },
+      "navigation": {
+        "navigation": "ناوبری",
+        "accordion": "آکاردئون",
+        "tab": "تب",
+        "dropdown": "منوی کشویی",
+        "steps": "مراحل",
+        "pagination": "صفحه‌بندی",
+        "menu-list": "لیست منو",
+        "treeview": "نمای درختی"
+      },
+      "loading": {
+        "loading": "بارگذاری",
+        "progress": "پیشرفت",
+        "circlebar": "نوار دایره‌ای",
+        "skeleton": "اسکلتون",
+        "spinner": "چرخنده"
+      },
+      "feedback": {
+        "feedback": "بازخورد",
+        "tooltip": "تولتیپ",
+        "notification": "اعلان",
+        "alert": "هشدار"
+      },
+      "modal": {
+        "modal": "مودال",
+        "drawer": "کشو"
+      },
+      "advanced": {
+        "advanced": "پیشرفته",
+        "scroll-shadow": "اسکرول",
+        "charts": "نمودارها",
+        "carousel": "اسلایدر"
+      }
+    },
+    "management": {
+      "title": "مدیریت",
+      "user-management": "مدیریت کاربران",
+      "role-management": "مدیریت نقش ها"
+    },
+    "settings": {
+      "settings": "تنظیمات",
+      "general": "عمومی",
+      "billing": "صورتحساب",
+      "notifications": "اطلاعیه‌ها",
+      "sessions": "جلسات و رمز عبور"
+    }
+  },
+  "error": {
+    "dashboards": {
+      "dashboards": "داشبوردها"
+    }
+  }
+}
