@@ -45,13 +45,13 @@
         }
       }
     },
-    "managements": {
+    "administration": {
       "title": "مدیریت",
-      "user-management": {
+      "users": {
         "title": "مدیریت کاربران ",
         "subtitle": "تنظیمات کاربران در این صفحه گذاشته شده"
       },
-      "role-management": {
+      "roles": {
         "title": "مدیریت نقش ها ",
         "subtitle": "تنظیمات نقش ها در این صفحه گذاشته شده"
       }
@@ -60,29 +60,15 @@
   "nav": {
     "dashboards": {
       "dashboards": "داشبوردها",
+      "home": "صفحه اصلی",
       "sales": "فروش",
       "crm-analytics": "تحلیل CRM",
       "orders": "سفارش‌ها",
-      "crypto": "رمزارز",
-      "crypto-1": "رمزارز نسخه ۱",
-      "crypto-2": "رمزارز نسخه ۲",
       "banking": "بانکداری",
       "banking-1": "بانکداری نسخه ۱",
       "banking-2": "بانکداری نسخه ۲",
       "personal": "شخصی",
-      "cms-analytics": "تحلیل CMS",
-      "influencer": "اینفلوئنسر",
-      "travel": "سفر",
-      "teacher": "معلم",
-      "education": "آموزش",
-      "authors": "نویسندگان",
-      "doctor": "پزشک",
-      "employees": "کارمندان",
-      "workspaces": "فضاهای کاری",
-      "meetings": "جلسات",
-      "projects-board": "تابلوی پروژه‌ها",
-      "widget-ui": "رابط ویجت",
-      "widget-contact": "ویجت تماس"
+      "projects-board": "تابلوی پروژه‌ها"
     },
     "apps": {
       "apps": "اپلیکیشن‌ها",
@@ -180,10 +166,10 @@
         "carousel": "اسلایدر"
       }
     },
-    "managements": {
+    "administration": {
       "title": "مدیریت",
-      "user-management": "مدیریت کاربران",
-      "role-management": "مدیریت نقش ها"
+      "users": "مدیریت کاربران",
+      "roles": "مدیریت نقش ها"
     },
     "settings": {
       "settings": "تنظیمات",

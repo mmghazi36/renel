@@ -19,7 +19,7 @@ const protectedRoutes: RouteObject = {
       children: [
         {
           index: true,
-          element: <Navigate to="/dashboards/sales" />,
+          element: <Navigate to="/dashboards/home" replace />,
         },
         {
           path: "/components",
@@ -465,7 +465,13 @@ const protectedRoutes: RouteObject = {
           children: [
             {
               index: true,
-              element: <Navigate to="/dashboards/sales" />,
+              element: <Navigate to="/dashboards/home" replace />,
+            },
+            {
+              path: "home",
+              lazy: async () => ({
+                Component: (await import("@/app/pages/dashboards/home")).default,
+              }),
             },
             {
               path: "sales",
@@ -501,6 +507,27 @@ const protectedRoutes: RouteObject = {
                 Component: (
                   await import("@/app/pages/dashboards/projects-board")
                 ).default,
+              }),
+            },
+          ],
+        },
+        {
+          path: "administration",
+          children: [
+            {
+              index: true,
+              element: <Navigate to="/administration/users" replace />,
+            },
+            {
+              path: "users",
+              lazy: async () => ({
+                Component: (await import("@/app/pages/administration/users")).default,
+              }),
+            },
+            {
+              path: "roles",
+              lazy: async () => ({
+                Component: (await import("@/app/pages/administration/roles")).default,
               }),
             },
           ],
@@ -587,13 +614,6 @@ const protectedRoutes: RouteObject = {
               }),
             },
           ],
-        },
-        {
-          path: "managements",
-          lazy: async () => ({
-            Component: (await import("@/app/pages/managements/managements")).default,
-          }),
-          children: [],
         },
       ],
     },

@@ -10,6 +10,14 @@ export const dashboards: NavigationTree = {
   type: "root",
   childs: [
     {
+      id: "dashboards.home",
+      path: path(ROOT_DASHBOARDS, "/home"),
+      type: "item",
+      title: "Home",
+      transKey: "nav.dashboards.home",
+      icon: "dashboards.home",
+    },
+    {
       id: "dashboards.sales",
       path: path(ROOT_DASHBOARDS, "/sales"),
       type: "item",

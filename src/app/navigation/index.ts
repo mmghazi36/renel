@@ -3,7 +3,7 @@ import { components } from "./segments/components";
 import { dashboards } from "./segments/dashboards";
 import { forms } from "./segments/forms";
 import { tables } from "./segments/tables";
-import { managements } from "@/app/navigation/segments/managements.ts";
+import { administration } from "./segments/administration";
 
 export const navigation = [
   dashboards,
@@ -11,5 +11,5 @@ export const navigation = [
   tables,
   forms,
   components,
-  managements
+  administration,
 ];

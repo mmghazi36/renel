@@ -41,13 +41,13 @@ export const baseNavigationObj: Record<string, NavigationTree> = {
     transKey: "nav.components.components",
     icon: "components",
   },
-  management: {
-    id: "management",
+  administration: {
+    id: "administration",
     type: "item",
-    path: "/managements",
-    title: "management",
-    transKey: "nav.managements.title",
-    icon: "managements",
+    path: "/administration",
+    title: "Administration",
+    transKey: "nav.administration.title",
+    icon: "administration",
   },
 };
 
