@@ -1,5 +1,6 @@
 import { User } from "@/@types/user";
 import { createSafeContext } from "@/utils/createSafeContext";
+import { Permission } from "@/@types/Permission.ts";
 
 export type LoginErrorKey =
   | "auth.errors.invalid"
@@ -19,6 +20,9 @@ export interface AuthContextType {
     password: string;
   }) => Promise<LoginErrorKey | null>;
   logout: () => Promise<void>;
+
+  can: (permission: Permission) => boolean;
+  hasRole: (roleName: string) => boolean;
 }
 
 export const [AuthProvider, useAuthContext] =

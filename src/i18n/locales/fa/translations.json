@@ -49,7 +49,15 @@
       "title": "مدیریت",
       "users": {
         "title": "مدیریت کاربران ",
-        "subtitle": "تنظیمات کاربران در این صفحه گذاشته شده"
+        "subtitle": "تنظیمات کاربران در این صفحه گذاشته شده",
+        "empty-state": {
+          "empty-title": "هنوز کاربری اضافه نشده است",
+          "empty-subtitle": "برای شروع، اولین کاربر را اضافه کنید.",
+          "empty-btn": "افزودن کاربر",
+          "not-found-title": "کاربری با این مشخصات پیدا نشد",
+          "not-found-subtitle": "جستجو یا فیلترها را تغییر دهید.",
+          "not-found-btn": "پاک کردن فیلترها"
+        }
       },
       "roles": {
         "title": "مدیریت نقش ها ",
@@ -182,6 +190,26 @@
   "error": {
     "dashboards": {
       "dashboards": "داشبوردها"
+    }
+  },
+  "common": {
+    "entities": {
+      "user": "کاربر",
+      "role": "نقش",
+      "project": "پروژه"
+    },
+    "actions": {
+      "add": "افزودن",
+      "edit": "ویرایش",
+      "delete": "حذف",
+      "print": "چاپ",
+      "export": "خروجی",
+      "export-pdf": "خروجی pdf",
+      "export-csv": "خروجی csv",
+      "save": "ذخیره",
+      "accept": "تایید",
+      "cancel": "انصراف",
+      "close": "بستن"
     }
   }
 }

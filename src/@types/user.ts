@@ -1,17 +1,13 @@
+// import { Permission } from "./Permission";
+import { Role } from "@/@types/role";
+
 export interface User {
   id: string;
   name: string;
   email?: string;
   avatarUrl?: string;
   roles: Role[];
-  permissions: Permission[];
+  // permissions: Permission[];
+  active: boolean;
 }
-
-export type Permission =
-  | "projects:read"
-  | "projects:write"
-  | "finances:manage"
-  | "users:admin";
-
-export type Role = "admin" | "manager" | "viewer";
 
